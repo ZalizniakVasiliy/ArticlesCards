@@ -1,8 +1,14 @@
 .paper {
+  display: flex;
   width: 100%;
   border: 1px solid #EAEAEA;
   border-radius: 5px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+.input {
+  flex: 1;
+  padding-right: 14px;
 }
 
 .keyWordStyle {
@@ -13,11 +19,6 @@
   font-family: 'montserrat', sans-serif;
   font-size: 16px;
   font-weight: 600;
-}
-
-.iconSearchButton {
-  display: inline-block;
-  padding: 4px;
 }
 
 .highlightedWord {

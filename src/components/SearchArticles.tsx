@@ -15,21 +15,20 @@ const SearchArticles = (props: articleToSearch) => {
         onSubmit={(event) => event.preventDefault()}
         className={styles.paper}
       >
-        <div className={styles.iconSearchButton}>
-          <IconButton
-            type="button"
-            aria-label="search"
-            onClick={props.handleSearch}
-          >
-            <SearchIcon/>
-          </IconButton>
-        </div>
-          <InputBase
-            placeholder="Filter by keywords"
-            defaultValue={props.matchedArticle}
-            onChange={props.handleInput}
-            onKeyUp={props.handleKeyUp}
-          />
+        <IconButton
+          type="button"
+          aria-label="search"
+          onClick={props.handleSearch}
+        >
+          <SearchIcon/>
+        </IconButton>
+        <InputBase
+          className={styles.input}
+          placeholder="Filter by keywords"
+          defaultValue={props.matchedArticle}
+          onChange={props.handleInput}
+          onKeyUp={props.handleKeyUp}
+        />
       </Paper>
     </>
   );
