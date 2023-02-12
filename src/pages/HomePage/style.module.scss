@@ -1,0 +1,136 @@
+.paper {
+  width: 100%;
+  border: 1px solid #EAEAEA;
+  border-radius: 5px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+.keyWordStyle {
+  display: inline-block;
+  margin: 50px 0 10px;
+  line-height: 20px;
+  color: #363636;
+  font-family: 'montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.iconSearchButton {
+  display: inline-block;
+  padding: 4px;
+}
+
+.highlightedWord {
+  background-color: yellow;
+}
+
+.box {
+  padding: 0 75px 62px;
+}
+
+.divider {
+  margin: 40px 0 45px 0;
+  font-family: 'montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.card {
+  border: 1px solid #EAEAEA;
+  border-radius: 5px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+.imageCard {
+  height: 217px;
+}
+
+.title {
+  min-height: 58px;
+  line-height: 29px;
+  color: #363636;
+  font-family: 'montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.summary {
+  margin-top: 20px;
+  line-height: 150%;
+  color: #363636;
+  font-family: 'montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.detailsButton {
+  color: #363636;
+  text-transform: lowercase;
+  font-family: 'montserrat', sans-serif;
+  font-weight: 700;
+
+  &:first-letter {
+    text-transform: capitalize;
+  }
+}
+
+.arrowNextIcon {
+  color: #363636;
+  font-size: 4px;
+  margin-left: 6px;
+}
+
+.arrowPreviousIcon {
+  color: #363636;
+  font-size: 4px;
+  margin-right: 6px;
+}
+
+.imageSpecifiedCard {
+  display: block;
+  min-width: 100%;
+  height: 245px;
+  object-fit: cover;
+}
+
+.specifiedCard {
+  position: relative;
+  margin: -96px 75px 0 75px;
+  border: 1px solid #EAEAEA;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.titleSpecifiedCard {
+  padding: 21px 59px 0;
+  text-align: center;
+  font-size: 24px;
+  line-height: 29px;
+  font-family: 'montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.summarySpecifiedCard {
+  padding: 50px 59px 26px;
+  font-size: 18px;
+  line-height: 150%;
+  font-family: 'montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.absentCurrentArticle {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loaderDataBox {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
