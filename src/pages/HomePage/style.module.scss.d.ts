@@ -17,3 +17,4 @@ export const titleSpecifiedCard: string;
 export const absentCurrentArticle: string;
 export const loaderDataBox: string;
 export const input: string;
+export const referenceWrapper: string;

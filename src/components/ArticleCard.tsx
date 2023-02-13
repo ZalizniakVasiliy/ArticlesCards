@@ -1,7 +1,6 @@
 import * as React from 'react';
 import CardMedia from "@mui/material/CardMedia";
 import CardContent from "@mui/material/CardContent";
-import Button from "@mui/material/Button";
 import EastIcon from "@mui/icons-material/East";
 import Card from "@mui/material/Card";
 import styles from '../pages/HomePage/style.module.scss';
@@ -41,12 +40,10 @@ const ArticleCard = (props: articlesCard) => {
           >
           </div>
         </CardContent>
-        {/*<CardActions>*/}
-        <Button size="small"
-        >
+        <div className={styles.referenceWrapper}>
           <span className={styles.detailsButton}>Read more</span>
           <span className={styles.arrowNextIcon}><EastIcon/></span>
-        </Button>
+        </div>
       </CardActionArea>
     </Card>
   );

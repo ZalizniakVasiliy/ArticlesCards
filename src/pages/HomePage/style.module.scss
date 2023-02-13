@@ -7,7 +7,7 @@
 }
 
 .input {
-  flex: 1;
+  flex: auto;
   padding-right: 14px;
 }
 
@@ -65,6 +65,12 @@
   font-size: 16px;
 }
 
+.referenceWrapper {
+  display: flex;
+  margin: 4px 0 25px 16px;
+  align-items: center;
+}
+
 .detailsButton {
   color: #363636;
   text-transform: lowercase;
@@ -79,6 +85,7 @@
 .arrowNextIcon {
   color: #363636;
   font-size: 4px;
+  line-height: 0;
   margin-left: 6px;
 }
 
