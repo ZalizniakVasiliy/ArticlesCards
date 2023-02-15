@@ -24,7 +24,7 @@ const SearchArticles = (props: articleToSearch) => {
         </IconButton>
         <InputBase
           className={styles.input}
-          placeholder="Filter by keywords"
+          placeholder="The space topic you're interested in"
           defaultValue={props.matchedArticle}
           onChange={props.handleInput}
           onKeyUp={props.handleKeyUp}
